@@ -66,8 +66,9 @@ body {
 }
 
 .cv-button {
-  display: inline-block;
-  background-color: #6F4E37; /* Sıcak kahverengi */
+  display: block; /* inline-block yerine block */
+  margin: 0 auto; /* Yatayda ortalamak için */
+  background-color: #6F4E37;
   color: #fff;
   padding: 14px 32px;
   font-size: 18px;
